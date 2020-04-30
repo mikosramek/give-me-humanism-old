@@ -22,7 +22,7 @@
         v-if="slice.slice_type === 'text_and_image'"
       />
     </div>
-    <template v-for="(item, index) of body">
+    <template v-for="(item, index) of fields">
       <component
         :key="index"
         v-bind="item.attributes"
@@ -54,11 +54,6 @@
           main_link    : null,
           body         : null
         }
-      }
-    },
-    computed : {
-      body() {
-        return this.$_get(this.fields, 'body', []).map(this.parseBody);
       }
     },
     methods : {
