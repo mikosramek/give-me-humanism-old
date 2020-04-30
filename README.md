@@ -1,3 +1,8 @@
+# Give Me Humanism
+[![Netlify Status](https://api.netlify.com/api/v1/badges/20792a04-b18e-485d-9ec7-1f0fc37b6e96/deploy-status)](https://app.netlify.com/sites/give-me-humanism/deploys)
+
+A project build using:
+
 # Prismic Vue.js Starter
 
 > [Vue.js](https://vuejs.org) starter project with content managed in [Prismic](https://prismic.io)
