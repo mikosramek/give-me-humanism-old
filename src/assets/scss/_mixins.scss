@@ -1,0 +1,13 @@
+@mixin dark-drop {
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: -5px;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    background-color: $darkened-accent;
+  }
+}
